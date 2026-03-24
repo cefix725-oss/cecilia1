@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin, Linkedin } from "lucide-react";
+import { Phone, Mail, MapPin, Linkedin, Facebook, Youtube } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -86,6 +86,18 @@ const Footer = () => {
                 <Linkedin size={16} className="shrink-0 text-primary" />
                 <a href="https://www.linkedin.com/in/cecilia-wambui-mboya-b16b6265/" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">
                   LinkedIn
+                </a>
+              </li>
+              <li className="flex items-center gap-3">
+                <Facebook size={16} className="shrink-0 text-primary" />
+                <a href="https://www.facebook.com/cecilia.mboya" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">
+                  Facebook
+                </a>
+              </li>
+              <li className="flex items-center gap-3">
+                <Youtube size={16} className="shrink-0 text-primary" />
+                <a href="https://www.youtube.com/@cclmboya" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">
+                  YouTube
                 </a>
               </li>
             </ul>

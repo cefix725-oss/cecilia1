@@ -27,7 +27,7 @@ const About = () => {
               <SectionHeading title="About Cecilia" centered={false} />
               <div className="space-y-5 font-body text-muted-foreground leading-relaxed">
                 <p>
-                  Cecilia Wambui M is an experienced counseling psychologist and lecturer with over 15 years of experience in academia and mental health practice. She is dedicated to mentoring students, supervising research, providing therapy, and developing wellness programs for individuals and organizations.
+                  Cecilia Wambui M is an experienced counseling psychologist and lecturer with over 15 years of experience in academia and mental health practice. She has counseled over 1,500 clients, with a consistent practice of seeing at least 2 clients per week (approximately 10 per month) throughout her career. She is dedicated to mentoring students, supervising research, providing therapy, and developing wellness programs for individuals and organizations.
                 </p>
                 <p>
                   Cecilia W. M is the founder of Springboard Mental Health Counseling & Consultancy Ltd and a licensed counselor. She serves as the lead counselor at the Karen office location, offering professional support for individuals, families, and organizations.

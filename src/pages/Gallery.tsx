@@ -21,6 +21,8 @@ interface GalleryItem {
 }
 
 const galleryItems: GalleryItem[] = [
+  // Replace VIDEO_URL with your hosted video link (e.g., YouTube, Vimeo, or cloud storage)
+  { title: "State of Mind - NTV Interview", date: "2025", category: "Interview", duration: "15m", video: "https://your-video-hosting-url.com/ceciliayoutube.mp4" },
   { title: "CBT Workshop at Africa International University", date: "March 2024", category: "Workshop", duration: "2h 15m", image: aboutCandid },
   { title: "Mental Health Awareness Keynote", date: "February 2024", category: "Speaking Engagement", duration: "45m", image: heroPortrait },
   { title: "Trauma-Informed Care Training", date: "January 2024", category: "Workshop", duration: "3h", image: cecilia },
