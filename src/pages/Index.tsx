@@ -26,7 +26,7 @@ const services = [
 
 const stats = [
   { value: "15+", label: "Years Experience" },
-  { value: "1000+", label: "Students Mentored" },
+  { value: "1500+", label: "Students Mentored" },
   { value: "500+", label: "Counseling Sessions" },
   { value: "50+", label: "Trainings Conducted" },
 ];
