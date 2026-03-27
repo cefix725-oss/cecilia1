@@ -217,7 +217,7 @@ const Contact = () => {
                     ["Saturday", "10:00 - 17:00"],
                   ].map(([day, hours]) => (
                     <div key={day} className="rounded-lg border border-primary-foreground/20 bg-primary-foreground/5 p-3">
-                      <p className="text-xs text-primary-foreground uppercase tracking-wider font-semibold">{day}</p>
+                      <p className="text-xs text-primary uppercase tracking-wider font-semibold">{day}</p>
                       <p className="text-sm font-bold text-primary">{hours}</p>
                     </div>
                   ))}
