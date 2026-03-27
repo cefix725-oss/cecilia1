@@ -152,8 +152,10 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-600 font-bold mt-0.5" title="WhatsApp">
-                    W
+                  <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-emerald-500/20 mt-0.5" title="WhatsApp">
+                    <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.002 2.002c-5.52 0-9.999 4.479-9.999 9.999 0 1.754.45 3.46 1.314 4.96L2 22l4.19-1.1a9.923 9.923 0 0 0 5.813 1.7h.001c5.522 0 9.999-4.477 9.999-9.999 0-5.52-4.477-9.999-9.999-9.999Zm5.452 14.217c-.243.683-1.44 1.307-1.99 1.383-.13.02-.478.033-.952.03a9.04 9.04 0 0 1-4.79-1.58 8.935 8.935 0 0 1-3.3-4.24c-.41-1.07-.3-1.587.244-2.02.262-.21.582-.28.896-.88.31-.596.43-.773.65-.61.21.14.52.56.7.85.18.286.35.35.64.24.25-.09.86-.31 1.05-.33.2-.02.42-.03.63.34.23.41.76 1.42.84 1.54.08.12.12.27.02.44-.11.16-.16.25-.31.4-.15.15-.31.34-.44.45-.13.12-.27.27-.12.53.15.25.68 1.12 1.46 1.82 1.01.93 1.88 1.24 2.14 1.38.27.14.43.12.59-.076.15-.2.61-.71.77-.94.16-.23.35-.2.59-.12.24.08 1.53.72 1.79.85.26.14.44.21.51.33.07.12.07.72-.17 1.39Z" fill="currentColor"/>
+                    </svg>
                   </span>
                   <div className="font-body text-sm">
                     <p className="font-medium text-foreground">WhatsApp</p>
@@ -201,18 +203,26 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="bg-card rounded-xl p-8 shadow-card">
+              <div className="bg-card rounded-xl p-8 shadow-card border border-primary-foreground/10">
                 <h3 className="font-display text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
                   <Clock size={18} className="text-primary" /> Working Hours
                 </h3>
-                <ul className="space-y-2 font-body text-sm text-muted-foreground">
-                  <li className="flex justify-between"><span>Monday</span><span className="text-foreground font-medium">09:00 - 17:00</span></li>
-                  <li className="flex justify-between"><span>Tuesday</span><span className="text-foreground font-medium">09:00 - 17:00</span></li>
-                  <li className="flex justify-between"><span>Wednesday</span><span className="text-foreground font-medium">09:00 - 17:00</span></li>
-                  <li className="flex justify-between"><span>Thursday</span><span className="text-foreground font-medium">09:00 - 17:00</span></li>
-                  <li className="flex justify-between"><span>Friday</span><span className="text-foreground font-medium">09:00 - 17:00</span></li>
-                  <li className="flex justify-between"><span>Saturday</span><span className="text-foreground font-medium">10:00 - 17:00</span></li>
-                </ul>
+                <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
+                  {[
+                    ["Monday", "09:00 - 17:00"],
+                    ["Tuesday", "09:00 - 17:00"],
+                    ["Wednesday", "09:00 - 17:00"],
+                    ["Thursday", "09:00 - 17:00"],
+                    ["Friday", "09:00 - 17:00"],
+                    ["Saturday", "10:00 - 17:00"],
+                  ].map(([day, hours]) => (
+                    <div key={day} className="rounded-lg border border-primary-foreground/20 bg-primary-foreground/5 p-3">
+                      <p className="text-xs text-primary-foreground/70 uppercase tracking-wider">{day}</p>
+                      <p className="text-sm font-semibold text-foreground">{hours}</p>
+                    </div>
+                  ))}
+                </div>
+                <p className="mt-4 text-xs text-muted-foreground">Closed on Sunday and public holidays. Please contact ahead for special weekend appointments.</p>
               </div>
 
               {/* Map */}
