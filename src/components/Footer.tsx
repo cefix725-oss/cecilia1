@@ -71,6 +71,12 @@ const Footer = () => {
                   >
                     +254 107 186 767
                   </a>
+                  <a
+                    href="tel:+254716833224"
+                    className="text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+                  >
+                    +254 716 833 224
+                  </a>
                 </div>
               </li>
               <li className="flex items-center gap-3">
@@ -86,6 +92,28 @@ const Footer = () => {
                 <Linkedin size={16} className="shrink-0 text-primary" />
                 <a href="https://www.linkedin.com/in/cecilia-wambui-mboya-b16b6265/" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">
                   LinkedIn
+                </a>
+              </li>
+              <li className="flex items-center gap-3">
+                <MapPin size={16} className="shrink-0 text-primary" />
+                <a
+                  href="https://www.waze.com/en/live-map/directions/ke/nairobi-county/nairobi/cecilia-w-m-springboard-mental-health-counseling-and-consultancy-ltd-licenced-counselor.karen.?place=ChIJlRM9tCMdLxgRXxrsczeV3YQ"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+                >
+                  Waze
+                </a>
+              </li>
+              <li className="flex items-center gap-3">
+                <MapPin size={16} className="shrink-0 text-primary" />
+                <a
+                  href="https://medium.com/@cclmboya/forgiveness-and-mental-health-3a7648f29500"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+                >
+                  Forgiveness and Mental Health (Medium)
                 </a>
               </li>
               <li className="flex items-center gap-3">

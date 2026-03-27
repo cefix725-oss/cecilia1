@@ -68,7 +68,7 @@ const Contact = () => {
 
     if (form.preferredContact === "phone") {
       // If the user provided a phone number, we still route the request to the office phone.
-      window.location.href = "tel:+254100343201";
+      window.location.href = "tel:+254716833224";
       return;
     }
 
@@ -113,6 +113,15 @@ const Contact = () => {
                       >
                         Open map
                       </a>
+                      {" "}•{" "}
+                      <a
+                        href="https://www.waze.com/en/live-map/directions/ke/nairobi-county/nairobi/cecilia-w-m-springboard-mental-health-counseling-and-consultancy-ltd-licenced-counselor.karen.?place=ChIJlRM9tCMdLxgRXxrsczeV3YQ"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="underline hover:text-foreground"
+                      >
+                        Open in Waze
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -133,6 +142,12 @@ const Contact = () => {
                       >
                         +254 107 186 767
                       </a>
+                      <a
+                        href="tel:+254716833224"
+                        className="text-muted-foreground hover:text-foreground transition-colors"
+                      >
+                        +254 716 833 224
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -152,6 +167,20 @@ const Contact = () => {
                   <div className="font-body text-sm">
                     <p className="font-medium text-foreground">LinkedIn</p>
                     <a href="https://www.linkedin.com/in/cecilia-wambui-mboya-b16b6265/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">View Profile</a>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="w-5 h-5 text-primary shrink-0 mt-0.5 inline-flex items-center justify-center font-bold">M</span>
+                  <div className="font-body text-sm">
+                    <p className="font-medium text-foreground">Featured Article</p>
+                    <a
+                      href="https://medium.com/@cclmboya/forgiveness-and-mental-health-3a7648f29500"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-muted-foreground hover:text-foreground transition-colors"
+                    >
+                      Forgiveness and Mental Health
+                    </a>
                   </div>
                 </div>
               </div>
