@@ -132,7 +132,7 @@ const Contact = () => {
                     <div className="space-y-1">
                       <a
                         href="tel:+254716833224"
-                        className="text-primary hover:text-primary-foreground font-semibold transition-colors"
+                        className="text-primary hover:text-primary/90 font-semibold transition-colors"
                       >
                         +254 716 833 224 (Primary)
                       </a>
@@ -149,6 +149,22 @@ const Contact = () => {
                         +254 107 186 767
                       </a>
                     </div>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-600 font-bold mt-0.5" title="WhatsApp">
+                    W
+                  </span>
+                  <div className="font-body text-sm">
+                    <p className="font-medium text-foreground">WhatsApp</p>
+                    <a
+                      href="https://wa.me/254107186767"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-emerald-600 hover:text-emerald-700 font-semibold transition-colors"
+                    >
+                      +254 107 186 767
+                    </a>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -190,10 +206,12 @@ const Contact = () => {
                   <Clock size={18} className="text-primary" /> Working Hours
                 </h3>
                 <ul className="space-y-2 font-body text-sm text-muted-foreground">
-                  <li className="flex justify-between"><span>Monday – Friday</span><span className="text-foreground font-medium">9:00 AM – 5:00 PM</span></li>
-                  <li className="flex justify-between"><span>Saturday</span><span className="text-foreground font-medium">10:00 AM – 5:00 PM</span></li>
-                  <li className="flex justify-between"><span>Sunday</span><span className="text-foreground font-medium">Closed</span></li>
-                  <li className="flex justify-between"><span>Public Holidays</span><span className="text-foreground font-medium">Closed</span></li>
+                  <li className="flex justify-between"><span>Monday</span><span className="text-foreground font-medium">09:00 - 17:00</span></li>
+                  <li className="flex justify-between"><span>Tuesday</span><span className="text-foreground font-medium">09:00 - 17:00</span></li>
+                  <li className="flex justify-between"><span>Wednesday</span><span className="text-foreground font-medium">09:00 - 17:00</span></li>
+                  <li className="flex justify-between"><span>Thursday</span><span className="text-foreground font-medium">09:00 - 17:00</span></li>
+                  <li className="flex justify-between"><span>Friday</span><span className="text-foreground font-medium">09:00 - 17:00</span></li>
+                  <li className="flex justify-between"><span>Saturday</span><span className="text-foreground font-medium">10:00 - 17:00</span></li>
                 </ul>
               </div>
 

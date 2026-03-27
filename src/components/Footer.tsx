@@ -84,6 +84,17 @@ const Footer = () => {
                 </a>
               </li>
               <li className="flex items-center gap-3">
+                <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-600 font-bold">W</span>
+                <a
+                  href="https://wa.me/254107186767"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-emerald-300 hover:text-emerald-100 transition-colors font-semibold"
+                >
+                  +254 107 186 767 (WhatsApp)
+                </a>
+              </li>
+              <li className="flex items-center gap-3">
                 <MapPin size={16} className="shrink-0 text-primary" />
                 <a
                   href="https://www.waze.com/en/live-map/directions/ke/nairobi-county/nairobi/cecilia-w-m-springboard-mental-health-counseling-and-consultancy-ltd-licenced-counselor.karen.?place=ChIJlRM9tCMdLxgRXxrsczeV3YQ"
