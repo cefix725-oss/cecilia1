@@ -46,8 +46,13 @@ const Booking = () => {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
                 <div className="flex flex-col sm:flex-row gap-3">
+                  <a href="tel:+254716833224">
+                    <Button size="lg" className="font-body bg-primary hover:bg-primary/90 text-white">
+                      Call +254 716 833 224 (Primary)
+                    </Button>
+                  </a>
                   <a href="tel:+254100343201">
-                    <Button size="lg" className="font-body bg-accent hover:bg-accent/90 text-accent-foreground">
+                    <Button size="lg" variant="outline" className="font-body">
                       Call +254 100 343 201
                     </Button>
                   </a>

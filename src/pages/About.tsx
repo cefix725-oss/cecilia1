@@ -102,10 +102,13 @@ const About = () => {
                   <h3 className="font-display text-lg font-semibold text-foreground mb-3">Contacts & Location</h3>
                   <div className="space-y-2 font-body text-sm text-muted-foreground">
                     <div>
-                      <span className="font-medium text-foreground">Phone:</span> +254100343201, +254107186767
+                      <span className="font-medium text-foreground">Phone (Primary):</span> <a href="tel:+254716833224" className="underline hover:text-primary">+254 716 833 224</a>
                     </div>
                     <div>
-                      <span className="font-medium text-foreground">Email:</span> springboardmentalhealth2@gmail.com
+                      <span className="font-medium text-foreground">Phone (Additional):</span> <a href="tel:+254100343201" className="underline hover:text-primary">+254 100 343 201</a>, <a href="tel:+254107186767" className="underline hover:text-primary">+254 107 186 767</a>
+                    </div>
+                    <div>
+                      <span className="font-medium text-foreground">Email:</span> <a href="mailto:springboardmentalhealth2@gmail.com" className="underline hover:text-primary">springboardmentalhealth2@gmail.com</a>
                     </div>
                     <div>
                       <span className="font-medium text-foreground">Location:</span> Africa International University (office inside the university)

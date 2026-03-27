@@ -131,6 +131,12 @@ const Contact = () => {
                     <p className="font-medium text-foreground">Phone</p>
                     <div className="space-y-1">
                       <a
+                        href="tel:+254716833224"
+                        className="text-primary hover:text-primary-foreground font-semibold transition-colors"
+                      >
+                        +254 716 833 224 (Primary)
+                      </a>
+                      <a
                         href="tel:+254100343201"
                         className="text-muted-foreground hover:text-foreground transition-colors"
                       >
@@ -141,12 +147,6 @@ const Contact = () => {
                         className="text-muted-foreground hover:text-foreground transition-colors"
                       >
                         +254 107 186 767
-                      </a>
-                      <a
-                        href="tel:+254716833224"
-                        className="text-muted-foreground hover:text-foreground transition-colors"
-                      >
-                        +254 716 833 224
                       </a>
                     </div>
                   </div>

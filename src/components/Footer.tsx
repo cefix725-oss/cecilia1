@@ -56,27 +56,16 @@ const Footer = () => {
                 <MapPin size={16} className="mt-0.5 shrink-0 text-primary" />
                 <span className="text-primary-foreground/70">Africa International University (office inside the university), Karen, Nairobi, Kenya</span>
               </li>
-              <li className="flex items-center gap-3">
-                <Phone size={16} className="shrink-0 text-primary" />
-                <div className="flex flex-col gap-1">
-                  <a
-                    href="tel:+254100343201"
-                    className="text-primary-foreground/70 hover:text-primary-foreground transition-colors"
-                  >
-                    +254 100 343 201
-                  </a>
-                  <a
-                    href="tel:+254107186767"
-                    className="text-primary-foreground/70 hover:text-primary-foreground transition-colors"
-                  >
-                    +254 107 186 767
-                  </a>
-                  <a
-                    href="tel:+254716833224"
-                    className="text-primary-foreground/70 hover:text-primary-foreground transition-colors"
-                  >
-                    +254 716 833 224
-                  </a>
+              <li className="flex items-start gap-3">
+                <Phone size={16} className="mt-0.5 shrink-0 text-primary" />
+                <div className="space-y-1">
+                  <div className="text-primary-foreground font-semibold">+254 716 833 224 (Primary)</div>
+                  <div className="text-primary-foreground/80">Other contacts:</div>
+                  <div className="space-x-2">
+                    <a href="tel:+254100343201" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">+254 100 343 201</a>
+                    <span className="text-primary-foreground/50">|</span>
+                    <a href="tel:+254107186767" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">+254 107 186 767</a>
+                  </div>
                 </div>
               </li>
               <li className="flex items-center gap-3">
@@ -102,11 +91,11 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="text-primary-foreground/70 hover:text-primary-foreground transition-colors"
                 >
-                  Waze
+                  Open location in Waze
                 </a>
               </li>
               <li className="flex items-center gap-3">
-                <MapPin size={16} className="shrink-0 text-primary" />
+                <span className="text-primary">M</span>
                 <a
                   href="https://medium.com/@cclmboya/forgiveness-and-mental-health-3a7648f29500"
                   target="_blank"
